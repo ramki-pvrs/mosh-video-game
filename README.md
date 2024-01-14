@@ -25,3 +25,19 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+#SETUP
+create a repo in git-hub video-game; no README.md file
+
+goto Docments/mosh/
+npm create vite
+create video-game project for React with Typescript
+npm install
+
+cd video-game
+git init
+git add .
+git commit -m "initial commit" .
+git remote add origin git@github.com:ramki-pvrs/mosh-video-game.git
+git branch -M main
+git push -u origin main
