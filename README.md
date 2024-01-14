@@ -55,3 +55,17 @@ npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 provider script to main.tsx
 
 chakra page: Styled Systems - Responsive Styles
+
+Dark theme : Chakra page : Color Mode
+add theme.ts in src folder for dark and light mode
+use that theme.ts in main.tsx
+update ChakraProvide propertiy theme and add ColorModeScript in main.tsx
+
+in browser debug window in Applicaiton or Storage tab, you can check local storage
+where chakr ui theme key value is stored
+
+Firefox - debug window - Storage tab - Local Storage on left menu - chakra ui key val
+
+if you delete it and refresh, default dark mode theme will be rendered now
+---
+
