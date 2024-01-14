@@ -66,6 +66,19 @@ where chakr ui theme key value is stored
 
 Firefox - debug window - Storage tab - Local Storage on left menu - chakra ui key val
 
-if you delete it and refresh, default dark mode theme will be rendered now
----
+## if you delete it and refresh, default dark mode theme will be rendered now
 
+https://chakra-ui.com/docs/components/stack/usage#notes-on-stack-vs-flex
+
+HStack is grouping elements horizontally, Image (logo) and Nav Bar text is grouped like that in NavBar.tsx
+
+NavBar.tsx threw the error:
+
+IT WAS MY STUPIDITY: forgot return in ColorModeSwitch.tsx
+
+'ColorModeSwitch' cannot be used as a JSX component.
+Its type '() => void' is not a valid JSX element type.
+Type '() => void' is not assignable to type '(props: any, deprecatedLegacyContext?: any) => ReactNode'.
+Type 'void' is not assignable to type 'ReactNode'.ts(2786)
+(alias) function ColorModeSwitch(): void
+import ColorModeSwitch
