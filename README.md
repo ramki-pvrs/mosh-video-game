@@ -41,3 +41,17 @@ git commit -m "initial commit" .
 git remote add origin git@github.com:ramki-pvrs/mosh-video-game.git
 git branch -M main
 git push -u origin main
+
+#WHAT we are building
+rawg.io/games/action
+https://rawg.io/games/action
+
+chakra-ui.com
+Get Started
+vite
+https://chakra-ui.com/getting-started/vite-guide
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+provider script to main.tsx
+
+chakra page: Styled Systems - Responsive Styles
